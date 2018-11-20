@@ -3,7 +3,12 @@
  * Copyright 2013-2018 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
-
+::selection {
+  background: #00b22d; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #00b22d; /* Gecko Browsers */
+}
 body,
 html {
   width: 100%;
